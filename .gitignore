@@ -1,3 +1,18 @@
+# Cache & IDE files
 *.pyc
 __pycache__
 .idea/
+.vscode/
+
+# Build files for fast pose extractor
+build/
+
+# Generated models
+## PyTorch
+human-pose-estimation-3d.pth
+## ONNX
+human-pose-estimation-3d.onnx
+## OpenVINO
+human-pose-estimation-3d.bin
+human-pose-estimation-3d.mapping
+human-pose-estimation-3d.xml
